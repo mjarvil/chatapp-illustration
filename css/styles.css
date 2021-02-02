@@ -26,29 +26,6 @@ a {
   text-decoration: none;
 }
 
-.bg-2 {
-  position: absolute;
-  height: 500px;
-  bottom: 0;
-  right: -35%;
-  width: 45vh;
-  /* background: #f7f5fa; */
-  background: pink;
-  border-radius: 200px 200px 0 0;
-  z-index: -8;
-}
-
-.bg-1 {
-  position: absolute;
-  height: 60vh;
-  top: 0;
-  left: -30%;
-  width: 45vh;
-  background: linear-gradient(to bottom, #e942ff, #8838ff);
-  border-radius: 0 0 200px 200px;
-  z-index: -9;
-}
-
 /* Phone design */
 .phone {
   margin: 0 auto;
