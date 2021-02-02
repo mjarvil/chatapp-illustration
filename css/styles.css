@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
+  background-color: #f5f3f7;
 }
 
 .container {
@@ -31,7 +32,8 @@ a {
   /* border: 1px solid magenta; */
   padding: 0.5em;
   border-radius: 35px;
-  box-shadow: 0 3px 25px 4 px #dddddd;
+  background-color: #fff;
+  box-shadow: 0 3px 15px 4 px #dddddd;
 }
 
 .screen {
