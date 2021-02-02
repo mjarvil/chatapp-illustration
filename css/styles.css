@@ -14,7 +14,7 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,7 @@ a {
 .phone {
   width: 15.437rem;
   height: 31.625rem;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   padding: 0.5em;
   border-radius: 35px;
 }
