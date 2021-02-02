@@ -30,6 +30,7 @@ a {
   height: 31.625rem;
   /* border: 1px solid magenta; */
   padding: 0.5em;
+  background: #fff;
   border-radius: 35px;
   box-shadow: 0 3px 25px 4 px #dddddd;
 }
