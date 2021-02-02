@@ -4,7 +4,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  position: relative;
+  /* position: relative; */
   font-size: 16px;
 }
 
@@ -14,7 +14,7 @@ body {
   overflow: hidden;
 }
 
-.bg-1 {
+/* .bg-1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,14 +34,14 @@ body {
   z-index: 1;
   width: 50%;
   background: #f8f8f8;
-}
+} */
 
 .container {
-  z-index: 99;
-  /* width: 80%;
-  margin: 4em auto; */
+  /* z-index: 99; */
+  /* width: 80%; */
+  margin: 0 auto;
   padding: 2em;
-  height: 100vh;
+  /* min-height: 100vh; */
   border: 1px solid magenta;
   display: flex;
   flex-direction: column;
@@ -61,6 +61,7 @@ a {
   border-radius: 35px;
   background-color: #fff;
   box-shadow: 0 3px 15px 4 px #dddddd;
+  border: 1px solid #fafafa;
 }
 
 .screen {
