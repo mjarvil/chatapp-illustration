@@ -17,11 +17,22 @@ body {
   position: absolute;
   height: 60vh;
   top: 0;
-  left: -50px;
-  width: 200px;
+  left: -80px;
+  width: 45vh;
   background: linear-gradient(to bottom, #e942ff, #8838ff);
   border-radius: 0 0 200px 200px;
   z-index: -9;
+}
+
+.bg-2 {
+  position: absolute;
+  height: 60vh;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background: #bb1515;
+  border-radius: 200px 200px 0 0;
+  z-index: -8;
 }
 
 .container {
