@@ -10,10 +10,23 @@ html {
 body {
   font-family: 'Rubik', sans-serif;
   background: #f6f6f6;
+  position: relative;
+}
+
+.bg-1 {
+  position: absolute;
+  height: 60vh;
+  top: 0;
+  left: -50px;
+  width: 200px;
+  background: linear-gradient(to bottom, #e942ff, #8838ff);
+  border-radius: 0 0 200px 200px;
+  z-index: -9;
 }
 
 .container {
-  margin: 2em auto;
+  z-index: 99;
+  /* margin: 2em auto; */
   /* border: 1px solid magenta; */
   display: flex;
   flex-direction: column;
@@ -26,6 +39,7 @@ a {
 
 /* Phone design */
 .phone {
+  margin-top: 2em;
   width: 15.437rem;
   height: 31.625rem;
   /* border: 1px solid magenta; */
