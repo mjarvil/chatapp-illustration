@@ -130,7 +130,7 @@ a {
 /* Main App Contents */
 .main-page {
   height: 22.812rem;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   padding: 0.625em;
 
   display: flex;
@@ -144,27 +144,47 @@ a {
 }
 
 .bubble {
-  /* max-height: 2.5rem;*/
-  /* max-width: 9em; */
-
   /* border: 1px solid magenta; */
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8125em;
+}
+
+.bubble .icon {
+  height: 15px;
+  width: 15px;
+  border: 1px solid orange;
+  border-radius: 50%;
 }
 
 .text-bubble {
   padding: 0.5em;
 }
 
+.price-bubble {
+  display: flex;
+  align-items: center;
+}
+
+.price-bubble p {
+  margin-left: 10px;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.price-bubble p.price {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
 .contact {
   color: hsl(276, 55%, 52%);
   background-color: hsl(270, 100%, 89%);
-  border-radius: 5px 5px 5px 0;
+  border-radius: 10px 10px 10px 0;
   width: 135px;
 }
 
 .me {
   color: hsl(271, 15%, 43%);
-  border-radius: 5px 5px 0 5px;
+  border-radius: 10px 10px 0 10px;
   justify-content: flex-end;
   width: 135px;
 }
@@ -185,4 +205,12 @@ a {
 .image {
   width: 2.5em;
   border-radius: 10px;
+}
+
+/* Textfield styles */
+.textfield {
+  border-radius: 10%;
+  height: 20px;
+  border: 1px solid magenta;
+  margin: 0 0.625em;
 }
