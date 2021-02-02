@@ -50,4 +50,5 @@ body {
 .header .details {
   border: 1px solid orange;
   margin: 0.625em;
+  display: flex;
 }
