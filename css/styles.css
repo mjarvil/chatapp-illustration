@@ -24,6 +24,13 @@ body {
   width: 14.25rem;
   height: 30.25rem;
   border: 1px solid green;
-
   border-radius: 25px;
+  overflow: hidden;
+}
+
+.header {
+  height: 4.125rem;
+  width: 14.25rem;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 5px;
 }
