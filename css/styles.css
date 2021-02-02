@@ -132,9 +132,17 @@ a {
   height: 22.812rem;
   width: 15.437rem;
   border: 1px solid magenta;
+  padding: 0.625em;
 }
 
 .bubble {
-  max-height: 2.5rem;
-  max-width: 2.5rem;
+  /* max-height: 2.5rem;*/
+  max-width: 9em;
+  padding: 0.5em;
+  border: 1px solid magenta;
+  margin-bottom: 0.5em;
+}
+
+.bubble p {
+  font-size: 0.375rem;
 }
