@@ -46,7 +46,7 @@ a {
 .header {
   height: 4.125rem;
   width: 14.25rem;
-  background-color: hsl(271, 36%, 24%);
+  background: linear-gradient(to right, #8838ff, #e942ff);
   border-radius: 5px;
 }
 
@@ -116,6 +116,7 @@ a {
   align-items: center;
 }
 
+/* radio button */
 .options span {
   display: block;
   width: 2px;
@@ -123,7 +124,7 @@ a {
   margin-top: 0.005rem;
   margin-bottom: 0.12rem;
 
-  background: #fff;
+  background: #e570ff;
   border-radius: 3px;
 }
 
