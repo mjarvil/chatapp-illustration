@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'Rubik', sans-serif;
-  background: #f6f6f6;
+  background: #fafafa;
   position: relative;
 }
 
@@ -17,7 +17,7 @@ body {
   position: absolute;
   height: 60vh;
   top: 0;
-  left: -80px;
+  left: -30%;
   width: 45vh;
   background: linear-gradient(to bottom, #e942ff, #8838ff);
   border-radius: 0 0 200px 200px;
@@ -28,9 +28,9 @@ body {
   position: absolute;
   height: 60vh;
   bottom: 0;
-  right: 0;
-  width: 200px;
-  background: #bb1515;
+  right: -35%;
+  width: 45vh;
+  background: #f7f5fa;
   border-radius: 200px 200px 0 0;
   z-index: -8;
 }
