@@ -142,7 +142,7 @@ a {
   /* max-height: 2.5rem;*/
   max-width: 9em;
   padding: 0.5em;
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   margin-bottom: 0.5em;
 }
 
@@ -161,4 +161,14 @@ a {
 
 .bubble p {
   font-size: 0.375rem;
+}
+
+.image-bubble {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 2.5em;
+  border-radius: 10px;
 }
