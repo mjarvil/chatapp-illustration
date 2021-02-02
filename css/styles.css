@@ -146,7 +146,7 @@ a {
 
 .bubble {
   /* border: 1px solid magenta; */
-  margin-bottom: 0.8125em;
+  margin-bottom: 0.5em;
 }
 
 .bubble .icon {
@@ -158,20 +158,28 @@ a {
 }
 
 .text-bubble {
-  padding: 0.5em;
+  padding: 1.2em;
+  max-width: 100px;
 }
 
 .price-bubble {
   display: flex;
   align-items: center;
   background: linear-gradient(to right, #e942ff, #8838ff);
+  padding: 0.4em;
+  width: 10em;
 }
 
 .contact {
   color: hsl(276, 55%, 52%);
   background-color: #ece5f5;
   border-radius: 10px 10px 10px 0;
-  width: 135px;
+}
+
+.contact-message {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .price-bubble p {
@@ -188,8 +196,7 @@ a {
 .me {
   color: hsl(271, 15%, 43%);
   border-radius: 10px 10px 0 10px;
-  justify-content: flex-end;
-  width: 135px;
+  /* text-align: end; */
 }
 
 .me-bg {
@@ -208,6 +215,11 @@ a {
 .image {
   width: 2.5em;
   border-radius: 10px;
+  margin: 0 5px;
+}
+
+.image:last-child {
+  margin-right: 0;
 }
 
 /* Textfield styles */
