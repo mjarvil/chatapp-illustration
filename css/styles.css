@@ -139,13 +139,15 @@ a {
 
 .message {
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bubble {
   /* max-height: 2.5rem;*/
   /* max-width: 9em; */
 
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   margin-bottom: 0.5em;
 }
 
@@ -157,15 +159,18 @@ a {
   color: hsl(276, 55%, 52%);
   background-color: hsl(270, 100%, 89%);
   border-radius: 5px 5px 5px 0;
-  max-width: 135px;
+  width: 135px;
 }
 
 .me {
   color: hsl(271, 15%, 43%);
-  background-color: #fff;
   border-radius: 5px 5px 0 5px;
   justify-content: flex-end;
-  max-width: 135px;
+  width: 135px;
+}
+
+.me-bg {
+  background-color: #fff;
 }
 
 .bubble p {
