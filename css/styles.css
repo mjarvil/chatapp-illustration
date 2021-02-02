@@ -209,8 +209,14 @@ a {
 
 /* Textfield styles */
 .textfield {
-  border-radius: 10%;
-  height: 20px;
-  border: 1px solid magenta;
-  margin: 0 0.625em;
+  border-radius: 35px;
+  /* border: 1px solid magenta; */
+  margin: 0.625em 0.625em;
+  background-color: #fff;
+}
+
+.textfield p {
+  padding: 1.5em 2em;
+  font-size: 0.5rem;
+  color: #bbbbbb;
 }
