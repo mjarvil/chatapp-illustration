@@ -31,7 +31,6 @@ a {
   margin: 0 auto;
   width: 15.437rem;
   height: 31.625rem;
-  /* border: 1px solid magenta; */
   padding: 0.5em;
   background: #fff;
   border-radius: 35px;
@@ -41,7 +40,6 @@ a {
 .screen {
   width: 14.25rem;
   height: 30.25rem;
-  /* border: 1px solid green; */
   border-radius: 25px;
   overflow: hidden;
 
@@ -68,11 +66,9 @@ a {
 }
 
 .header .details {
-  /* border: 1px solid orange; */
   margin: 0.625em;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .header .details .backBtn {
@@ -136,7 +132,6 @@ a {
 /* Main App Contents */
 .main-page {
   height: 22.812rem;
-  /* border: 1px solid green; */
   padding: 0.625em;
 
   display: flex;
@@ -150,7 +145,6 @@ a {
 }
 
 .bubble {
-  /* border: 1px solid magenta; */
   margin-bottom: 0.625em;
 
   box-shadow: 0 2px 2.625px 0.325px #ecedee;
@@ -233,7 +227,6 @@ a {
 /* Textfield styles */
 .textfield {
   border-radius: 35px;
-  /* border: 1px solid magenta; */
   margin: 0.5em 0.625em 0 0.625em;
   background-color: #fff;
 
@@ -298,7 +291,6 @@ a {
       url('../images/bg2.svg') right bottom/45vh no-repeat;
   }
   .container {
-    /* margin-top: 20vh; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -312,7 +304,6 @@ a {
   }
 
   .description {
-    /* border: 1px solid magenta; */
     width: 30%;
     text-align: left;
   }
