@@ -16,4 +16,14 @@ body {
   width: 15.437rem;
   height: 31.625rem;
   border: 1px solid magenta;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+.screen {
+  width: 14.25rem;
+  height: 30.25rem;
+  border: 1px solid green;
+
+  border-radius: 25px;
 }
