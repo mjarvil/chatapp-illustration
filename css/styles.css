@@ -39,6 +39,8 @@ a {
   /* border: 1px solid green; */
   border-radius: 25px;
   overflow: hidden;
+
+  background: hsl(270, 20%, 96%);
 }
 
 .header {
@@ -123,4 +125,16 @@ a {
 
   background: #fff;
   border-radius: 3px;
+}
+
+/* Main App Contents */
+.main-page {
+  height: 22.812rem;
+  width: 15.437rem;
+  border: 1px solid magenta;
+}
+
+.bubble {
+  max-height: 2.5rem;
+  max-width: 2.5rem;
 }
