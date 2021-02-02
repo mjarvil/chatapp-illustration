@@ -52,11 +52,21 @@ a {
 }
 
 .header .details {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   margin: 0.625em;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header .details .backBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header .details .backBtn img {
+  width: 10px;
 }
 
 .details .contents {
