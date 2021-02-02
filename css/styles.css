@@ -51,4 +51,16 @@ body {
   border: 1px solid orange;
   margin: 0.625em;
   display: flex;
+  align-items: center;
+}
+
+.details .contents {
+  display: flex;
+}
+
+.details .contents .avatar {
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
