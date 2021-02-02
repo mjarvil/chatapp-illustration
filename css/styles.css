@@ -213,10 +213,30 @@ a {
   /* border: 1px solid magenta; */
   margin: 0.625em 0.625em;
   background-color: #fff;
+
+  display: flex;
+  align-items: center;
 }
 
 .textfield p {
-  padding: 1.5em 2em;
+  padding: 1em 2em;
   font-size: 0.5rem;
   color: #bbbbbb;
+  flex-grow: 1;
+}
+
+.textfield a {
+  display: inline-block;
+  background-color: #3e2753;
+  display: flex;
+  justify-content: center;
+
+  padding: 0.5em;
+  margin: 0.325em;
+  border-radius: 50%;
+}
+
+.textfield a img {
+  width: 8px;
+  height: 8px;
 }
