@@ -147,6 +147,8 @@ a {
 .bubble {
   /* border: 1px solid magenta; */
   margin-bottom: 0.625em;
+
+  box-shadow: 0 2px 2.625px 0.325px #ecedee;
 }
 
 .bubble p {
@@ -200,7 +202,6 @@ a {
 .me {
   color: hsl(271, 15%, 43%);
   border-radius: 10px 10px 0 10px;
-  /* text-align: end; */
 }
 
 .me-bg {
@@ -210,12 +211,14 @@ a {
 .image-bubble {
   display: flex;
   justify-content: space-between;
+  box-shadow: none;
 }
 
 .image {
   width: 2.5em;
   border-radius: 10px;
   margin: 0 5px;
+  box-shadow: 0 2px 2.625px 0.325px #ecedee;
 }
 
 .image:last-child {
