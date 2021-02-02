@@ -130,26 +130,34 @@ a {
 /* Main App Contents */
 .main-page {
   height: 22.812rem;
-  width: 15.437rem;
-  border: 1px solid magenta;
+  border: 1px solid green;
   padding: 0.625em;
 
   display: flex;
   flex-direction: column;
 }
 
+.message {
+  width: 100%;
+}
+
 .bubble {
   /* max-height: 2.5rem;*/
-  max-width: 9em;
-  padding: 0.5em;
+  /* max-width: 9em; */
+
   border: 1px solid magenta;
   margin-bottom: 0.5em;
+}
+
+.text-bubble {
+  padding: 0.5em;
 }
 
 .contact {
   color: hsl(276, 55%, 52%);
   background-color: hsl(270, 100%, 89%);
   border-radius: 5px 5px 5px 0;
+  max-width: 135px;
 }
 
 .me {
@@ -157,6 +165,7 @@ a {
   background-color: #fff;
   border-radius: 5px 5px 0 5px;
   justify-content: flex-end;
+  max-width: 135px;
 }
 
 .bubble p {
