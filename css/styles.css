@@ -152,8 +152,9 @@ a {
 .bubble .icon {
   height: 15px;
   width: 15px;
-  border: 1px solid orange;
+  border: 1px solid #f5f3f7;
   border-radius: 50%;
+  opacity: 0.2;
 }
 
 .text-bubble {
@@ -163,24 +164,25 @@ a {
 .price-bubble {
   display: flex;
   align-items: center;
+  background: linear-gradient(to right, #e942ff, #8838ff);
+}
+
+.contact {
+  color: hsl(276, 55%, 52%);
+  background-color: #ece5f5;
+  border-radius: 10px 10px 10px 0;
+  width: 135px;
 }
 
 .price-bubble p {
   margin-left: 10px;
-  color: #fff;
+  color: #f5f3f7;
   flex-grow: 1;
 }
 
 .price-bubble p.price {
   font-size: 0.75rem;
   font-weight: 600;
-}
-
-.contact {
-  color: hsl(276, 55%, 52%);
-  background-color: hsl(270, 100%, 89%);
-  border-radius: 10px 10px 10px 0;
-  width: 135px;
 }
 
 .me {
