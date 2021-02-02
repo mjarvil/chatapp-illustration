@@ -133,14 +133,30 @@ a {
   width: 15.437rem;
   border: 1px solid magenta;
   padding: 0.625em;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .bubble {
   /* max-height: 2.5rem;*/
   max-width: 9em;
   padding: 0.5em;
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   margin-bottom: 0.5em;
+}
+
+.contact {
+  color: hsl(276, 55%, 52%);
+  background-color: hsl(270, 100%, 89%);
+  border-radius: 5px 5px 5px 0;
+}
+
+.me {
+  color: hsl(271, 15%, 43%);
+  background-color: #fff;
+  border-radius: 5px 5px 0 5px;
+  justify-content: flex-end;
 }
 
 .bubble p {
