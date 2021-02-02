@@ -263,10 +263,18 @@ a {
 
 .description {
   text-align: center;
+  padding: 0 2.062em;
 }
 
 .description h1 {
-  margin: 2.062em;
-  font-size: 1.5rem;
+  margin: 1.2em;
+  font-size: 1.2rem;
   color: #3e2753;
+}
+
+.description p {
+  color: #a39daa;
+  font-size: 0.725rem;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
 }
