@@ -33,4 +33,13 @@ body {
   width: 14.25rem;
   background-color: hsl(271, 36%, 24%);
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.header .notch {
+  height: 1.187rem;
+  width: 8.125rem;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
 }
